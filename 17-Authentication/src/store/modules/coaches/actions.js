@@ -12,7 +12,7 @@ export default {
     const token = context.rootGetters.token;
 
     const response = await fetch(
-      `https://findcoach-9e740-default-rtdb.firebaseio.com/coaches/${userId}.json?auth=` + token,
+      `https://findcoach-a70d1-default-rtdb.firebaseio.com/coaches/${userId}.json?auth=` + token,
       {
         method: 'PUT',
         body: JSON.stringify(coachData),
@@ -35,7 +35,7 @@ export default {
     }
 
     const response = await fetch(
-      `https://findcoach-9e740-default-rtdb.firebaseio.com/coaches.json`
+      `https://findcoach-a70d1-default-rtdb.firebaseio.com/coaches.json`
     );
     const responseData = await response.json();
     if (!response.ok) {

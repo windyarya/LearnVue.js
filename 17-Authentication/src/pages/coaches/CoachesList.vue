@@ -47,7 +47,6 @@ import CoachFilter from '../../components/coaches/CoachFilter.vue';
 import BaseSpinner from '../../components/UI/BaseSpinner.vue';
 import BaseDialog from '../../components/UI/BaseDialog.vue';
 import BaseButton from '../../components/UI/BaseButton.vue';
-
 export default {
   components: {
     CoachItem,
@@ -124,7 +123,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 .controls {
   display: flex;
   justify-content: space-between;
